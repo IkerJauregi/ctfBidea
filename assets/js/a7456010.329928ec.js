@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkctf_bidea=self.webpackChunkctf_bidea||[]).push([[235],{8552:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);
