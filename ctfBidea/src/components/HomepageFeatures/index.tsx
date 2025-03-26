@@ -11,32 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Writeups Detallados',
+    Svg: require('@site/static/svg/addDocument.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Análisis paso a paso de máquinas vulnerables, retos CTF y labs. Cada writeup incluye comandos, herramientas y explicaciones claras para que aprendas mientras resuelves.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Aprendizaje Continuo',
+    Svg: require('@site/static/svg/codeThinking.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Ideal para aprender hacking ético, pentesting y seguridad ofensiva desde cero. Aprende mientras yo tambien aprendo.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Organizado y Accesible',
+    Svg: require('@site/static/svg/folderFile.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        El contenido está estructurado por maquinas y herramientas. Encuentra fácilmente lo que necesitas en cada writeup.
       </>
     ),
   },

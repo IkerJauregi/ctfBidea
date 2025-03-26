@@ -1,4 +1,4 @@
-import type {ReactNode} from 'react';
+import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -9,7 +9,7 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -17,11 +17,17 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={styles.notice}>
+          🚧 Este sitio está en construcción. Algunos contenidos pueden estar incompletos.
+        </div>
+        <p className={styles.intro}>
+          Bienvenido a mi blog de Writeups sobre CTFs, máquinas vulnerables y más. Aquí iré documentando todo el proceso de resolución de retos paso a paso.
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Ver los Writeups →
           </Link>
         </div>
       </div>
@@ -30,11 +36,11 @@ function HomepageHeader() {
 }
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Inicio | ${siteConfig.title}`}
+      description="Writeups de CTFs, máquinas vulnerables y mucho más">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
