@@ -20,8 +20,8 @@ También exploraremos el uso de herramientas esenciales para **pruebas de seguri
 🛠️ Aprende a utilizar herramientas clave paso a paso  
 📚 Revisa los conceptos básicos si estás comenzando
 
-👉 [Ir a los primeros CTFs](./primeros-ctf)  
-👉 [Ver herramientas utilizadas](./herramientas)
+<!-- 👉 [Ir a los primeros CTFs](./primeros-ctf)   -->
+<!-- 👉 [Ver herramientas utilizadas](./herramientas) -->
 
 ---
 

@@ -39,7 +39,19 @@ const config: Config = {
     ],
   ],
 
+  plugins: ['docusaurus-plugin-image-zoom'],
+
   themeConfig: {
+    zoom: {
+      selector: '.markdown :not(em) > img',
+      background: {
+        light: 'rgb(255, 255, 255)',
+        dark: 'rgb(50, 50, 50)'
+      },
+      config: {
+
+      }
+    },
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'ctfBidea',
